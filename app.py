@@ -6,19 +6,19 @@ import sklearn
 
 # Load models and scalers
 diabetes_model = pickle.load(open(
-    "D:/Internship - Machine Learning/Projects/ML Project - Multiple Disease Prediction Model/saved models/diabetes_model.sav",
+    "diabetes_model.sav",
     "rb"))
 diabetes_scaler = pickle.load(open(
-    "D:/Internship - Machine Learning/Projects/ML Project - Multiple Disease Prediction Model/saved models/diabetes_scaler.sav",
+    "diabetes_scaler.sav",
     "rb"))
 heart_model = pickle.load(open(
-    "D:/Internship - Machine Learning/Projects/ML Project - Multiple Disease Prediction Model/saved models/heart_disease.sav",
+    "heart_disease.sav",
     "rb"))
 parkinsons_model = pickle.load(open(
-    "D:/Internship - Machine Learning/Projects/ML Project - Multiple Disease Prediction Model/saved models/parkinssons_disease.sav",
+    "parkinssons_disease.sav",
     "rb"))
 breast_cancer_model = pickle.load(open(
-    "D:/Internship - Machine Learning/Projects/ML Project - Multiple Disease Prediction Model/saved models/breast_cancer_model.sav",
+    "breast_cancer_model.sav",
     "rb"))
 
 # Page configuration
