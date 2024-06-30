@@ -34,8 +34,9 @@ with st.sidebar:
             "Heart Disease Prediction",
             "Parkinson's Disease Prediction",
             "Breast Cancer Prediction",
+            "Connect"
         ],
-        icons=["house", "activity", "heart", "person", "hospital"],
+        icons=["house", "activity", "heart", "person", "hospital", "person-lines-fill"],
         default_index=0,
     )
 
@@ -259,3 +260,22 @@ if selected == "Breast Cancer Prediction":
             breast_cancer_diagnosis = "The Breast Cancer is Malignant"
 
     st.success(breast_cancer_diagnosis)
+
+# conenct with me page
+if selected == "Connect":
+    import streamlit as st
+
+    st.title("Connect with Me")
+    st.markdown("""
+        Feel free to reach out to me via email or connect with me on LinkedIn and GitHub! 💬
+    """)
+    st.write("")
+
+    st.subheader("Contact Information 📩")
+    st.write("**Name:** Aryan Shah")
+    st.write("**Email:** aryanshah1957@gmail.com")
+    st.write("")
+
+    st.subheader("Social Media 🌍")
+    st.write("[LinkedIn](https://www.linkedin.com/in/aryanashah/) 🔗")
+    st.write("[GitHub](https://github.com/AryanShah30) 🔗")
