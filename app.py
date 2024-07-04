@@ -43,6 +43,11 @@ with st.sidebar:
 # Index page
 if selected == "Index":
     st.title("Multiple Disease Prediction System using Machine Learning")
+    st.markdown("""
+    <div style='color: gray; font-size: 15px;'>
+        Last updated on 29/06/2024.
+    </div>
+    """, unsafe_allow_html=True)
     st.markdown("---")
 
     st.markdown("""
